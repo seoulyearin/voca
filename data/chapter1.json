@@ -1,0 +1,648 @@
+[
+    {
+        "kanji": "半分",
+        "hiragana": "はんぶん",
+        "meaning": "반, 절반"
+    },
+    {
+        "kanji": "言う",
+        "hiragana": "いう",
+        "meaning": "말하다"
+    },
+    {
+        "kanji": "買う",
+        "hiragana": "かう",
+        "meaning": "사다"
+    },
+    {
+        "kanji": "使う",
+        "hiragana": "つかう",
+        "meaning": "사용하다"
+    },
+    {
+        "kanji": "歩く",
+        "hiragana": "あるく",
+        "meaning": "걷다"
+    },
+    {
+        "kanji": "行く",
+        "hiragana": "いく",
+        "meaning": "가다"
+    },
+    {
+        "kanji": "聞く",
+        "hiragana": "きく",
+        "meaning": "듣다, 묻다"
+    },
+    {
+        "kanji": "出す",
+        "hiragana": "だす",
+        "meaning": "내다, 제출하다"
+    },
+    {
+        "kanji": "立つ",
+        "hiragana": "たつ",
+        "meaning": "서다"
+    },
+    {
+        "kanji": "遊ぶ",
+        "hiragana": "あそぶ",
+        "meaning": "놀다"
+    },
+    {
+        "kanji": "選ぶ",
+        "hiragana": "えらぶ",
+        "meaning": "고르다, 선택하다"
+    },
+    {
+        "kanji": "並ぶ",
+        "hiragana": "ならぶ",
+        "meaning": "줄을 서다"
+    },
+    {
+        "kanji": "飲む",
+        "hiragana": "のむ",
+        "meaning": "마시다, (약을) 먹다"
+    },
+    {
+        "kanji": "休む",
+        "hiragana": "やすむ",
+        "meaning": "쉬다"
+    },
+    {
+        "kanji": "帰る",
+        "hiragana": "かえる",
+        "meaning": "돌아가다, 돌아오다"
+    },
+    {
+        "kanji": "作る",
+        "hiragana": "つくる",
+        "meaning": "만들다"
+    },
+    {
+        "kanji": "入る",
+        "hiragana": "はいる",
+        "meaning": "들어가다, 들어오다"
+    },
+    {
+        "kanji": "青い",
+        "hiragana": "あおい",
+        "meaning": "파랗다"
+    },
+    {
+        "kanji": "新しい",
+        "hiragana": "あたらしい",
+        "meaning": "새롭다"
+    },
+    {
+        "kanji": "甘い",
+        "hiragana": "あまい",
+        "meaning": "달다"
+    },
+    {
+        "kanji": "多い",
+        "hiragana": "おおい",
+        "meaning": "많다"
+    },
+    {
+        "kanji": "大きい",
+        "hiragana": "おおきい",
+        "meaning": "크다"
+    },
+    {
+        "kanji": "汚い",
+        "hiragana": "きたない",
+        "meaning": "더럽다"
+    },
+    {
+        "kanji": "暗い",
+        "hiragana": "くらい",
+        "meaning": "어둡다"
+    },
+    {
+        "kanji": "寒い",
+        "hiragana": "さむい",
+        "meaning": "춥다"
+    },
+    {
+        "kanji": "高い",
+        "hiragana": "たかい",
+        "meaning": "높다, 비싸다"
+    },
+    {
+        "kanji": "小さい",
+        "hiragana": "ちいさい",
+        "meaning": "작다"
+    },
+    {
+        "kanji": "強い",
+        "hiragana": "つよい",
+        "meaning": "강하다, 세다"
+    },
+        {
+            "kanji": "安全だ",
+            "hiragana": "あんぜんだ",
+            "meaning": "안전하다"
+        },
+        {
+            "kanji": "外国",
+            "hiragana": "がいこく",
+            "meaning": "외국"
+        },
+        {
+            "kanji": "会社",
+            "hiragana": "かいしゃ",
+            "meaning": "회사"
+        },
+        {
+            "kanji": "九分",
+            "hiragana": "きゅうふん",
+            "meaning": "구 분(9분)"
+        },
+        {
+            "kanji": "午前",
+            "hiragana": "ごぜん",
+            "meaning": "오전"
+        },
+        {
+            "kanji": "三千円",
+            "hiragana": "さんぜんえん",
+            "meaning": "삼천 엔"
+        },
+        {
+            "kanji": "時間",
+            "hiragana": "じかん",
+            "meaning": "시간"
+        },
+        {
+            "kanji": "仕事",
+            "hiragana": "しごと",
+            "meaning": "일, 업무"
+        },
+        {
+            "kanji": "写真",
+            "hiragana": "しゃしん",
+            "meaning": "사진"
+        },
+        {
+            "kanji": "心配だ",
+            "hiragana": "しんぱいだ",
+            "meaning": "걱정하다, 염려하다"
+        },
+        {
+            "kanji": "新聞",
+            "hiragana": "しんぶん",
+            "meaning": "신문"
+        },
+        {
+            "kanji": "大学",
+            "hiragana": "だいがく",
+            "meaning": "대학"
+        },
+        {
+            "kanji": "手紙",
+            "hiragana": "てがみ",
+            "meaning": "편지"
+        },
+        {
+            "kanji": "出口",
+            "hiragana": "でぐち",
+            "meaning": "출구"
+        },
+        {
+            "kanji": "電気",
+            "hiragana": "でんき",
+            "meaning": "전기"
+        },
+        {
+            "kanji": "電話",
+            "hiragana": "でんわ",
+            "meaning": "전화"
+        },
+        {
+            "kanji": "動物",
+            "hiragana": "どうぶつ",
+            "meaning": "동물"
+        },
+        {
+            "kanji": "百円",
+            "hiragana": "ひゃくえん",
+            "meaning": "백 엔"
+        },
+        {
+            "kanji": "百人",
+            "hiragana": "ひゃくにん",
+            "meaning": "백 명"
+        },
+        {
+            "kanji": "映画",
+            "hiragana": "えいが",
+            "meaning": "영화"
+        },
+        {
+            "kanji": "英語",
+            "hiragana": "えいご",
+            "meaning": "영어"
+        },
+        {
+            "kanji": "家庭",
+            "hiragana": "かてい",
+            "meaning": "가정"
+        },
+        {
+            "kanji": "九十人",
+            "hiragana": "きゅうじゅうにん",
+            "meaning": "구십 명"
+        },
+        {
+            "kanji": "九百人",
+            "hiragana": "きゅうひゃくにん",
+            "meaning": "구백 명"
+        },
+        {
+            "kanji": "教室",
+            "hiragana": "きょうしつ",
+            "meaning": "교실"
+        },
+        {
+            "kanji": "兄弟",
+            "hiragana": "きょうだい",
+            "meaning": "형제"
+        },
+        {
+            "kanji": "銀行",
+            "hiragana": "ぎんこう",
+            "meaning": "은행"
+        },
+        
+            {
+                "kanji": "住所",
+                "hiragana": "じゅうしょ",
+                "meaning": "주소"
+            },
+            {
+                "kanji": "食堂",
+                "hiragana": "しょくどう",
+                "meaning": "식당"
+            },
+            {
+                "kanji": "先週",
+                "hiragana": "せんしゅう",
+                "meaning": "지난주"
+            },
+            {
+                "kanji": "毎週",
+                "hiragana": "まいしゅう",
+                "meaning": "매주"
+            },
+            {
+                "kanji": "来週",
+                "hiragana": "らいしゅう",
+                "meaning": "다음 주"
+            },
+            {
+                "kanji": "旅行",
+                "hiragana": "りょこう",
+                "meaning": "여행"
+            },
+            {
+                "kanji": "一階",
+                "hiragana": "いっかい",
+                "meaning": "일 층"
+            },
+            {
+                "kanji": "一週間",
+                "hiragana": "いっしゅうかん",
+                "meaning": "일주일간, 일주간"
+            },
+            {
+                "kanji": "切手",
+                "hiragana": "きって",
+                "meaning": "우표"
+            },
+            {
+                "kanji": "雑誌",
+                "hiragana": "ざっし",
+                "meaning": "잡지"
+            },
+            {
+                "kanji": "十本",
+                "hiragana": "じゅっぽん",
+                "meaning": "열 자루"
+            },
+            {
+                "kanji": "二百回",
+                "hiragana": "にひゃっかい",
+                "meaning": "이백 회, 이백 번"
+            },
+            {
+                "kanji": "三つ",
+                "hiragana": "みっつ",
+                "meaning": "세 개"
+            },
+            {
+                "kanji": "八つ",
+                "hiragana": "やっつ",
+                "meaning": "여덟 개"
+            },
+            {
+                "kanji": "六本",
+                "hiragana": "ろっぽん",
+                "meaning": "여섯 자루"
+            },
+            {
+                "kanji": "学生",
+                "hiragana": "がくせい",
+                "meaning": "학생"
+            },
+            {
+                "kanji": "学校",
+                "hiragana": "がっこう",
+                "meaning": "학교"
+            },
+        
+            {
+                "kanji": "火曜日",
+                "hiragana": "かようび",
+                "meaning": "화요일"
+            },
+            {
+                "kanji": "金曜日",
+                "hiragana": "きんようび",
+                "meaning": "금요일"
+            },
+            {
+                "kanji": "土曜日",
+                "hiragana": "どようび",
+                "meaning": "토요일"
+            },
+            {
+                "kanji": "日曜日",
+                "hiragana": "にちようび",
+                "meaning": "일요일"
+            },
+            {
+                "kanji": "七月",
+                "hiragana": "しちがつ",
+                "meaning": "7월"
+            },
+            {
+                "kanji": "今月",
+                "hiragana": "こんげつ",
+                "meaning": "이번 달"
+            },
+            {
+                "kanji": "去年",
+                "hiragana": "きょねん",
+                "meaning": "작년, 지난해"
+            },
+            {
+                "kanji": "半年",
+                "hiragana": "はんとし",
+                "meaning": "반 년"
+            },
+            {
+                "kanji": "三分",
+                "hiragana": "さんぷん",
+                "meaning": "삼 분(3분)"
+            },
+            {
+                "kanji": "自分",
+                "hiragana": "じぶん",
+                "meaning": "자기, 자신"
+            },
+            {
+                "kanji": "先日",
+                "hiragana": "せんじつ",
+                "meaning": "얼마 전, 며칠 전"
+            },
+            
+                {
+                    "kanji": "長い",
+                    "hiragana": "ながい",
+                    "meaning": "길다"
+                },
+                {
+                    "kanji": "安い",
+                    "hiragana": "やすい",
+                    "meaning": "싸다"
+                },
+                {
+                    "kanji": "丈夫だ",
+                    "hiragana": "じょうぶだ",
+                    "meaning": "튼튼하다"
+                },
+                {
+                    "kanji": "便利だ",
+                    "hiragana": "べんりだ",
+                    "meaning": "편리하다"
+                },
+                {
+                    "kanji": "有名だ",
+                    "hiragana": "ゆうめいだ",
+                    "meaning": "유명하다"
+                },
+                {
+                    "kanji": "間",
+                    "hiragana": "あいだ",
+                    "meaning": "사이, 간격"
+                },
+                {
+                    "kanji": "朝",
+                    "hiragana": "あさ",
+                    "meaning": "아침"
+                },
+                {
+                    "kanji": "後",
+                    "hiragana": "あと",
+                    "meaning": "뒤, 후"
+                },
+                {
+                    "kanji": "兄",
+                    "hiragana": "あに",
+                    "meaning": "형, 오빠"
+                },
+                {
+                    "kanji": "姉",
+                    "hiragana": "あね",
+                    "meaning": "누나, 언니"
+                },
+                {
+                    "kanji": "犬",
+                    "hiragana": "いぬ",
+                    "meaning": "개"
+                },
+                {
+                    "kanji": "海",
+                    "hiragana": "うみ",
+                    "meaning": "바다"
+                },
+                {
+                    "kanji": "男",
+                    "hiragana": "おとこ",
+                    "meaning": "남자"
+                },
+                {
+                    "kanji": "女",
+                    "hiragana": "おんな",
+                    "meaning": "여자"
+                },
+                {
+                    "kanji": "顔",
+                    "hiragana": "かお",
+                    "meaning": "얼굴"
+                },
+                {
+                    "kanji": "金",
+                    "hiragana": "かね",
+                    "meaning": "돈"
+                },
+                {
+                    "kanji": "川",
+                    "hiragana": "かわ",
+                    "meaning": "강"
+                },
+                {
+                    "kanji": "木",
+                    "hiragana": "き",
+                    "meaning": "나무"
+                },
+                {
+                    "kanji": "国",
+                    "hiragana": "くに",
+                    "meaning": "나라, 고향"
+                },
+                {
+                    "kanji": "車",
+                    "hiragana": "くるま",
+                    "meaning": "자동차"
+                },
+                {
+                    "kanji": "声",
+                    "hiragana": "こえ",
+                    "meaning": "목소리"
+                },
+                {
+                    "kanji": "魚",
+                    "hiragana": "さかな",
+                    "meaning": "물고기"
+                },
+                {
+                    "kanji": "先",
+                    "hiragana": "さき",
+                    "meaning": "앞"
+                },
+                {
+                    "kanji": "外",
+                    "hiragana": "そと",
+                    "meaning": "바깥"
+                },
+                {
+                    "kanji": "空",
+                    "hiragana": "そら",
+                    "meaning": "하늘"
+                },
+                {
+                    "kanji": "卵",
+                    "hiragana": "たまご",
+                    "meaning": "달걀"
+                },
+                {
+                    "kanji": "机",
+                    "hiragana": "つくえ",
+                    "meaning": "책상"
+                },
+                {
+                    "kanji": "手",
+                    "hiragana": "て",
+                    "meaning": "손"
+                },
+                {
+                    "kanji": "中",
+                    "hiragana": "なか",
+                    "meaning": "안, 속"
+                },
+                
+                    {
+                        "kanji": "庭",
+                        "hiragana": "にわ",
+                        "meaning": "정원, 뜰"
+                    },
+                    {
+                        "kanji": "歯",
+                        "hiragana": "は",
+                        "meaning": "이, 이빨"
+                    },
+                    {
+                        "kanji": "母",
+                        "hiragana": "はは",
+                        "meaning": "엄마, 어머니"
+                    },
+                    {
+                        "kanji": "春",
+                        "hiragana": "はる",
+                        "meaning": "봄"
+                    },
+                    {
+                        "kanji": "東",
+                        "hiragana": "ひがし",
+                        "meaning": "동, 동쪽"
+                    },
+                    {
+                        "kanji": "左",
+                        "hiragana": "ひだり",
+                        "meaning": "왼쪽"
+                    },
+                    {
+                        "kanji": "人",
+                        "hiragana": "ひと",
+                        "meaning": "사람"
+                    },
+                    {
+                        "kanji": "前",
+                        "hiragana": "まえ",
+                        "meaning": "앞, 전"
+                    },
+                    {
+                        "kanji": "窓",
+                        "hiragana": "まど",
+                        "meaning": "창문"
+                    },
+                    {
+                        "kanji": "右",
+                        "hiragana": "みぎ",
+                        "meaning": "오른쪽"
+                    },
+                    {
+                        "kanji": "水",
+                        "hiragana": "みず",
+                        "meaning": "물"
+                    },
+                    {
+                        "kanji": "店",
+                        "hiragana": "みせ",
+                        "meaning": "가게"
+                    },
+                    {
+                        "kanji": "耳",
+                        "hiragana": "みみ",
+                        "meaning": "귀"
+                    },
+                    {
+                        "kanji": "目",
+                        "hiragana": "め",
+                        "meaning": "눈(신체)"
+                    },
+                    {
+                        "kanji": "山",
+                        "hiragana": "やま",
+                        "meaning": "산"
+                    }
+                    
+                
+            
+            
+        
+    
+    
+]
