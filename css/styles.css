@@ -1,0 +1,369 @@
+@font-face {
+    font-family: 'BMHANNAPro';
+    src: url('../assets/fonts/BMHANNAPro.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Bold';
+    src: url('../assets/fonts/NotoSansJP-Bold.ttf') format('truetype');
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'BMHANNAPro', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* 스크롤 방지 */
+}
+
+/* 전체 레이아웃 */
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* 아코디언 버튼 (왼쪽 상단) */
+.menu-button {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.menu-button .bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+/* 제목 컨테이너 */
+.title-container {
+    position: absolute;
+    top: 100px;  /* 원하는 위치 조절 */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 10;
+}
+
+/* 日本語 스타일 */
+.japanese-text {
+    font-family: 'NotoSansJP-Bold', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: -40px;
+    left: -60px;
+    display: inline-block; /* 인라인 요소로 변경 */
+    white-space: nowrap; /* 줄바꿈 방지 */
+    text-orientation: mixed; /* 가로 방향 유지 */
+    writing-mode: horizontal-tb; /* 가로쓰기 강제 */
+    direction: ltr; /* 왼쪽에서 오른쪽 정렬 */
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+    
+}
+
+
+
+/* VOCA 스타일 */
+.voca-text {
+    font-family: 'BMHANNAPro', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 10px; /* 日本語 기준 위치 조정 */
+    left: -35px; /* 원하는 값으로 변경 가능 */
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+    
+}
+
+/* 배경 아이콘 (icon1 - 후지산) */
+.bg-icon {
+    width: 250px; /* 크기 조절 가능 */
+    position: absolute;
+    top: -80px; /* 위치 조정 가능 */
+    left:-50px; /* 원하는 값으로 변경 가능 */
+    z-index: -2; /* 카드보다 뒤쪽으로 이동 */
+    pointer-events: none; /* 클릭 이벤트 무시 */
+    
+}
+
+
+/* 카드 컨테이너 위치 조정 */
+.card-container {
+    position: absolute;
+    top: 200px; /* 제목과 겹치지 않도록 아래로 내림 */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* 필요하면 조정 가능 */
+}
+
+/* 카드 기본 스타일 */
+.card {
+    width: 140px;
+    height: 180px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'NotoSansJP-Bold', sans-serif;
+    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+/* 중앙 카드 (메인 카드) */
+.main-card {
+    width: 180px;
+    height: 220px;
+    font-size: 28px;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+/* 왼쪽 & 오른쪽 카드 (기본 크기) */
+.left-card, .right-card {
+    position: absolute;
+    width: 140px;
+    height: 180px;
+    opacity: 0.8;
+    z-index:-1;
+}
+
+/* 왼쪽 카드 위치 (중앙 카드 뒤쪽에 살짝 겹치게) */
+.left-card {
+    left: -45%;
+    transform: translateX(-50%);
+}
+
+/* 오른쪽 카드 위치 (중앙 카드 뒤쪽에 살짝 겹치게) */
+.right-card {
+    right: -45%;
+    transform: translateX(50%);
+}
+
+/* 진행 상태 (카드 아래 중앙 정렬) */
+.progress {
+    position: absolute;
+    top: 500px; /* 카드 아래 적절한 위치로 배치 */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    z-index: 10; /* 다른 요소들보다 위에 표시 */
+    display: block; /* 혹시 숨겨져 있으면 block 설정 */
+    font-family: 'BMHANNAPro', sans-serif !important;
+}
+
+/* 버튼 컨테이너 (진행 상태 아래 위치) */
+.button-container {
+    position: absolute;
+    top: 550px; /* 진행 상태 아래 적절한 위치 */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* 버튼 간격 */
+    z-index: 20; /* 배경보다 위로 */
+}
+
+/* 복습 버튼 (기본적으로 숨김) */
+#reviewBtn.hidden {
+    display: none;
+}
+
+
+/* 모르는 단어 버튼 (이미지 포함) */
+#unknownBtn {
+    background: none;
+    border: none;
+    position: fixed;
+    top: 75vh; /* 화면 아래에서 5% */
+    left: 75vw; /* 화면 오른쪽에서 5% */
+    cursor: pointer;
+    z-index: 100; /* 최상단 */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 버튼 내부 이미지 */
+#unknownBtn img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    display: block; /* 혹시 숨겨져 있으면 강제로 표시 */    
+}
+
+/* 복습 버튼 폰트 적용 */
+#reviewBtn {
+    font-family: 'BMHANNAPro', sans-serif !important;
+}
+
+/* 챕터 버튼 폰트 적용 */
+#chapterBtn {
+    font-family: 'BMHANNAPro', sans-serif !important;
+}
+
+
+
+/* 클릭 방해 방지 */
+.bg-icon {
+    z-index: -2; /* 배경 이미지가 클릭을 방해하지 않도록 아래로 */
+    pointer-events: none; /* 클릭 이벤트 무시 */
+}
+
+
+
+
+/* 버튼 공통 스타일 */
+button {
+    background: none;
+    border: 1px solid white; /* 테두리만 있는 버튼 */
+    border-radius: 20px; /* 둥글게 */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    z-index: 20; /* 배경보다 위에 위치 */
+    position: relative;
+}
+
+/* 버튼 hover 효과 */
+button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* 모르는 단어 버튼 클릭 효과 */
+#unknownBtn:active {
+    opacity: 0.5; /* 클릭 시 살짝 회색으로 */
+    transform:  rotate(20deg); /* 15도 회전 추가 */
+    transition: transform 0.1s ease-in-out; /* 부드러운 애니메이션 */
+}
+
+/* 공통 아이콘 스타일 */
+.icon {
+    position: absolute; /* 절대 위치 지정 */
+    width: 80px; /* 기본 크기 */
+    height: auto;
+    object-fit: contain;
+    z-index: 10; /* 다른 요소 위에 배치 */
+}
+
+/* 개별 아이콘 위치 (사용자가 수정 가능) */
+#icon2 {
+    top: 60vh; /* 예시 값 (위치 조정 가능) */
+    left: 13vw; /* 예시 값 (위치 조정 가능) */
+    scale: 0.6;
+}
+
+#icon3 {
+    top: 20vh; /* 예시 값 (위치 조정 가능) */
+    left: 10vw; /* 예시 값 (위치 조정 가능) */
+    scale: 1.5;
+}
+
+#icon4 {
+    top: 65vh; /* 예시 값 (위치 조정 가능) */
+    left: 75vw; /* 예시 값 (위치 조정 가능) */
+}
+
+
+/* 모달 배경 */
+.modal {
+    display: none; /* 초기 상태에서 숨김 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+/* 모달 컨텐츠 */
+.modal-content {
+    background-color: white;
+    color: black;
+    font-family: 'BMHANNAPro', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 280px;
+    text-align: center;
+    box-sizing: border-box;
+    transform: translateY(0);
+}
+
+
+
+
+
+
+/* 닫기 버튼 */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* 아코디언 메뉴 스타일 */
+.accordion-menu {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 150px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    display: none; /* 기본적으로 숨김 */
+    z-index: 50;
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.accordion-menu li {
+    font-family: 'BMHANNAPro', sans-serif;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.accordion-menu li:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* 메뉴 숨김 (JavaScript에서 hidden을 추가할 경우) */
+.hidden {
+    display: none;
+}
