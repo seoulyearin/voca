@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本語 VOCA</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 아코디언 버튼 -->
+        <div class="menu-button">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+    <!-- 아코디언 버튼 (왼쪽 상단 ☰) -->
+<div class="menu-button" id="menuButton">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+
+<!-- 아코디언 메뉴 (기본적으로 숨김) -->
+<div class="accordion-menu hidden" id="accordionMenu">
+    <ul>
+        <li class="chapter-item" data-chapter="1">Chapter 1</li>
+        <li class="chapter-item" data-chapter="2">Chapter 2</li>
+        <li class="chapter-item" data-chapter="3">Chapter 3</li>
+        <li class="chapter-item" data-chapter="4">Chapter 4</li>
+        <li class="chapter-item" data-chapter="5">Chapter 5</li>
+        <li class="chapter-item" data-chapter="6">Chapter 6</li>
+        <li class="chapter-item" data-chapter="7">Chapter 7</li>
+        <li class="chapter-item" data-chapter="8">Chapter 8</li>
+        <li class="chapter-item" data-chapter="9">Chapter 9</li>
+        <li class="chapter-item" data-chapter="10">Chapter 10</li>
+        <li class="chapter-item" data-chapter="11">Chapter 11</li>
+        <li class="chapter-item" data-chapter="12">Chapter 12</li>
+        <li class="chapter-item" data-chapter="13">Chapter 13</li>
+        <li class="chapter-item" data-chapter="14">Chapter 14</li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+        <!-- 제목 -->
+        <div class="title-container">
+            <img src="assets/images/icon1.png" alt="후지산" class="bg-icon">
+            <span class="japanese-text">日本語</span>
+            <span class="voca-text">VOCA</span>
+        </div>
+
+        <!-- 카드 컨테이너 -->
+        <div class="card-container">
+            <div class="card left-card"></div>
+            <div class="card main-card" id="mainCard">青い</div>
+            <div class="card right-card"></div>
+        </div>
+
+        <!-- 진행 상태 표시 -->
+        <div class="progress">1 / 140</div>
+        <!-- 버튼 컨테이너 -->
+        <div class="button-container">
+            <button id="reviewBtn" class="hidden">복습</button>
+            <button id="chapterBtn">Chapter 1 tip</button>
+        </div>
+
+        <!-- 모르는 단어 저장 버튼 -->
+        <button id="unknownBtn">
+            <img src="/assets/images/icon_sad.png" alt="모르는 단어">
+        </button>
+
+       <!-- 추가할 아이콘 이미지 -->
+<img src="assets/images/icon2.png" alt="아이콘1" id="icon2" class="icon">
+<img src="assets/images/icon3.png" alt="아이콘2" id="icon3" class="icon">
+<img src="assets/images/icon4.png" alt="아이콘3" id="icon4" class="icon">
+
+
+    </div>
+    <!-- <div class="card main-card" id="mainCard" data-word="青い">青い</div> -->
+<!-- 모달 창 -->
+<div id="tipModal" class="modal">
+    <div class="modal-content">
+        <p id="tipContent">챕터 설명이 여기에 표시됩니다.</p>
+        <button id="closeModal">닫기</button>
+    </div>
+</div>
+
+
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
